@@ -1,9 +1,13 @@
 import React from 'react'
+import Banner from '../Components/Banner/Banner'
+import CoinsTable from '../Components/CoinsTable'
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
+  return <>
+    <Banner></Banner>
+
+    <CoinsTable></CoinsTable>
+  </>
 }
 
 export default Home
